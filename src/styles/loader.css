@@ -7,7 +7,7 @@
     width: 80px;
     height: 80px;
     margin-left: -40px;
-    background-color: rgb(187, 222, 251, 0.8);
+    background-color: rgba(187, 222, 251, 0.8);
     border-radius: 50%;
     z-index: 10;
 }

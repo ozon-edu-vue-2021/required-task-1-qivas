@@ -9,7 +9,7 @@ body {
 img {
     width: 100%;
     max-width: 100%;
-    display: bloсk;
+    display: block;
 }
 
 a {
@@ -60,6 +60,10 @@ main {
 
 .action:hover {
     background-color: #4CAF50;
+}
+
+.action.fetch {
+    align-self: center;
 }
 
 /* Images style */
@@ -119,21 +123,20 @@ figcaption {
 
 .popup {
     position: fixed;
-    visibility: hidden;
-    display: flex;
+    display: none;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     background-color: rgba(33, 33, 33, 0.5);
-    z-index: -1;
+    z-index: 1;
 }
 
 .popup.open {
-    visibility: visible;
+    display: flex;
 }
 
-.action {
+.popup .close {
     position: absolute;
     top: 50px;
     right: 50px;
